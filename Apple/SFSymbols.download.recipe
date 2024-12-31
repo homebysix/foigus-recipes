@@ -10,6 +10,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>SFSymbols</string>
+		<key>MAJOR_VERSION</key>
+		<string>5</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -19,7 +21,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>re_pattern</key>
-				<string>SF-Symbols-([\d\.]+)\.dmg</string>
+				<string>SF-Symbols-(%MAJOR_VERSION%([\d\.]+)?)\.dmg</string>
 				<key>result_output_var_name</key>
 				<string>version</string>
 				<key>url</key>
